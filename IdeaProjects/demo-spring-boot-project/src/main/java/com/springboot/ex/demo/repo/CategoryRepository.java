@@ -1,0 +1,9 @@
+package com.springboot.ex.demo.repo;
+
+
+import com.springboot.ex.demo.model.Category;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CategoryRepository extends CrudRepository<Category, Integer> {
+    
+}
